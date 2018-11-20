@@ -1,7 +1,7 @@
 <?php
 
-	echo "<h1 style='text-align:center'> Refresh Page </h1>" ;
-	/*
+	echo "<h1 style='text-align:center'> Count Page </h1>" ;
+	/*alternate method
 	$name = 'counter.txt' ;
 	$file = fopen($name,'r') ;
 	$hits = fscanf($file,'%d');
@@ -23,7 +23,7 @@
 	$name = 'counter.txt' ;
 	$c = file_get_contents($name) ;
 
-	echo $c ;
+	echo "The number of users visited : ".$c ;
 
 	file_put_contents($name, $c+1);
 ?>
