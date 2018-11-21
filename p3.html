@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head><title> Text Grow and Shrink </title></head>
+
+<body>
+
+<p id="myp1" style="text-align:center" > </p>
+
+
+<script>
+
+	var size = 10 ;
+
+	var mywait = setInterval(growtext , 100 ) ;
+
+	function growtext()
+	{
+		if( size < 51 ) 
+		{
+			size += 1 ;
+			document.getElementById("myp1").innerHTML = "Text Growing" ;
+			document.getElementById("myp1").style.fontSize = (size+'pt') ;
+			document.getElementById("myp1").style.color = "red" ;
+			
+		}
+		else
+		{
+			clearInterval(mywait) ;
+			mywait = setInterval(shrinktext , 100 ) ;
+			
+		}
+	}
+
+	function shrinktext()
+	{
+		if(size > 5 )
+		{
+			size -= 1 ;
+			document.getElementById("myp1").innerHTML = "Text Shrinking " ;
+			document.getElementById("myp1").style.fontSize = (size+'pt');
+			document.getElementById("myp1").style.color = "blue" ;
+		}
+		else
+		{
+			clearInterval(mywait) ;
+			mywait = setInterval(growtext , 100 ) ;
+		}
+	}
+	
+</script>
+</body>
+</html>
