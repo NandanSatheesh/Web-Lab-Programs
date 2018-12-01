@@ -7,7 +7,16 @@ Lab Programs for the course Web Technology with Mini Project  (15CSL77 )
 ---
 List of working programs 
 
-- Name of the program [Code](URL)
+- Calculator using HTML, CSS and JS [Code](https://github.com/NandanSatheesh/Web-Lab-Programs/blob/master/p1.html)
+- Squares and Cubes [Code](https://github.com/NandanSatheesh/Web-Lab-Programs/blob/master/p2.html)
+- [Code]()
+- [Code]()
+- [Code]()
+- [Code]()
+- [Code]()
+- [Code]()
+- [Code]()
+- [Code]()
 
 
 ---
