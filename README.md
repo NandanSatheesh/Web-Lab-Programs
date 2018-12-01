@@ -24,7 +24,7 @@ List of working programs
    
 XAMPP/WAMP     
 phpMyAdmin  
-A text editor of your choice :) (Sublime, VS Code, Atom...)  
+Sublime Text 3
 
   
 ---
