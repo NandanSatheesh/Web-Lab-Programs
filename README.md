@@ -14,10 +14,10 @@ List of working programs
 - XML Document to store Student Information [Code](https://github.com/NandanSatheesh/Web-Lab-Programs/blob/master/p5.xml) [CSS](https://github.com/NandanSatheesh/Web-Lab-Programs/blob/master/5.css)
 - Number of Visitors [Code](https://github.com/NandanSatheesh/Web-Lab-Programs/blob/master/p6.php)
 - Server Time (Client Time using JS also added) [Code](https://github.com/NandanSatheesh/Web-Lab-Programs/blob/master/p7.php)
-- [Code]()
-- [Code]()
-- [Code]()
-
+- Simple Calculator in PHP [Code](https://github.com/NandanSatheesh/Web-Lab-Programs/blob/master/p8a.php)
+-  Matrix Operations in PHP [Code](https://github.com/NandanSatheesh/Web-Lab-Programs/blob/master/p8b.php)
+- String Operations in PHP [Code](https://github.com/NandanSatheesh/Web-Lab-Programs/blob/master/p9.php)
+- Sort Student Records [Code](https://github.com/NandanSatheesh/Web-Lab-Programs/blob/master/p10.php) [SQL Dump](https://github.com/NandanSatheesh/Web-Lab-Programs/blob/master/weblab.sql)
 
 ---
 # Software Packages used 
