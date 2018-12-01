@@ -25,7 +25,7 @@ p {
 		var h = d.getHours() ;
 		var m = d.getMinutes() ;
 		var s = d.getSeconds() ;
-		document.getElementById('client-date').innerHTML = (h+':'+m+':'+s);
+		document.getElementById("client-date").innerHTML = (h+':'+m+':'+s);
 
 		setTimeout(showdate,1000);
 		
@@ -37,7 +37,7 @@ p {
 
 </head>
 
-<body onload=showdate()>
+<body onload="showdate()">
 	
 	<p id='client-date'></p>
 
