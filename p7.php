@@ -27,8 +27,8 @@ p {
 		var s = d.getSeconds() ;
 		document.getElementById('client-date').innerHTML = (h+':'+m+':'+s);
 
-
 		setTimeout(showdate,1000);
+		
 	}
 
 
@@ -39,13 +39,13 @@ p {
 
 <body onload=showdate()>
 	
-<p id='client-date'></p>
+	<p id='client-date'></p>
 
-<?php
-	date_default_timezone_set("Asia/Kolkata");
-	echo '<p id="server-date"> '.date("h:i:sa").'</p' ;
+	<?php
+		date_default_timezone_set("Asia/Kolkata");
+		echo '<p id="server-date"> '.date("h:i:sa").'</p' ;
 
-?>
+	?>
 
 
 
