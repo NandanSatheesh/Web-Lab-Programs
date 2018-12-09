@@ -43,7 +43,7 @@ p {
 
 	<?php
 		date_default_timezone_set("Asia/Kolkata");
-		echo '<p id="server-date"> '.date("h:i:sa").'</p' ;
+		echo '<p id="server-date"> '.date("h:i:sa").'</p>' ;
 
 	?>
 
